@@ -10,6 +10,9 @@ This is a Cloudflare Workers that allows you to seamlessly replace broken `404` 
 * Batch Processing: Handles links in batches to minimize the impact on performance and ensure efficient processing.
 * Request Throttling: Implements request throttling to avoid overloading servers when checking URLs.
 
+## Limitations
+
+There are several limitations. An example are the [Workers limits](https://developers.cloudflare.com/workers/platform/limits/) themselves. It could be that this script might not work when scanning over ~30 URLs.
 
 ## Usage
 
